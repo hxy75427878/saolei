@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>扫雷</title>
+
+    <link rel="stylesheet" href="sclw.css">
+</head>
+<body>
+<div id="main">
+
+    <div id="setup">
+            <div class="gua-title">
+<!--                设置-->
+              <div class="gua-content" >
+                  <button class="gua-item" data-index="0" id="green">
+                    简单 9X9
+                  </button>
+                  <button class="gua-item" data-index="1" id="yellow">
+                    中等 16X16
+                  </button>
+                  <button class="gua-item" data-index="2" id="red">
+                    专家 30X16
+                  </button>
+<!--                  <div class="gua-item" data-index="3">-->
+<!--                      自定义-->
+<!--                  </div>-->
+               </div>
+            </div>
+        <div id="banner">
+            <div class="line"><img src="image/time.png" width="40px" height="40px"><span id="time" data-interval="1" data-s="0" data-ss="0" data-m="0" data-mm="0" data-maxtime="暂无记录" data-gametime="99:99">00:00</span></div>
+            <div class="line"><img src="image/mime.png" width="40px" height="40px"><span id="mime" data-index="0"></span></div>
+            <span id="remark" data-index="0"><img src="image/menu.png"></span>
+        </div>
+        <!--        设置行和列<input type="text" class="input-class-num">-->
+<!--        <button class="button-class-num">确定</button>-->
+    </div>
+
+    <div id="sclw" data-active="0" data-max="99" data-count="0" data-y="0" data-flag="0">
+
+    </div>
+
+    <div id="sclw2"></div>
+</div>
+<script src="utils.js"></script>
+<script src="sclw.js">
+
+</script>
+</body>
+</html>

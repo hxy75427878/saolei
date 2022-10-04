@@ -1,0 +1,183 @@
+body {
+    background-color: #282C34;
+    color: white;
+    user-select:none;
+}
+
+#main {
+    text-align: center;
+}
+
+#sclw {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.gua-item:active {
+    /*display: none;*/
+    background: gray;
+}
+
+.show {
+    display: block !important;
+}
+
+.highlight {
+    background: lightyellow;
+}
+
+
+
+.cell {
+    margin: 0px 2px;
+    width: 30px;
+    height: 28px;
+    display: inline-block;
+    background: #119CCE;
+    line-height: 30px;
+    overflow: hidden;
+    font-size: 0px;
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: 0px 2px 0px #0A607F;
+}
+
+.cell2:active {
+    background: #0E89B6;
+    box-shadow: 0px 2px 0px #0E89B6;
+}
+
+.cell1 {
+    background: #0E89B6;
+}
+
+#banner {
+    display: none;
+    position: relative;
+    /*margin: 0px 10px;*/
+}
+.line {
+    display: inline-block;
+    margin-right: 40px;
+}
+#mime, #time {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.row {
+    height: 32px;
+    margin-top: 2px;
+}
+
+.font {
+    font-size: 14px;
+
+}
+
+
+
+.fjkk {
+    background: #ffffff;
+    box-shadow: 0px 2px 0px #ffffff;
+}
+
+.flag {
+    background: center url("image/flag.png") #EA8C0D no-repeat;
+    background-size: 20px 20px;
+    box-shadow: 0px 2px 0px #975803;
+}
+
+.flag:active {
+    background-color: #975803;
+    box-shadow: 0px 2px 0px #975803;
+}
+
+.wenhao {
+    background: center url("image/wenhao.png") #73A700 no-repeat;
+    background-size: 10px 15px;
+    box-shadow: 0px 2px 0px #4B6D00;
+}
+.wenhao:active {
+    background-color: #6B9C00;
+    box-shadow: 0px 2px 0px #6B9C00;
+}
+.white {
+    background: url("./image/doge.gif") no-repeat white;
+    background-size: 30px 30px;
+}
+
+.dilw {
+    font-size: 14px;
+    background-color: red;
+    box-shadow: 0px 2px 0px red;
+}
+/*#remark:hover {*/
+/*    background-color: cyan;*/
+/*}*/
+
+#remark{
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    cursor: pointer;
+}
+
+.gua-content {
+    position: relative;
+    margin-top: 10%;
+}
+
+
+.none {
+    display: none;
+}
+
+.gua-item {
+    border: 0px;
+    margin: 0 auto;
+    width: 35%;
+    height: 90px;
+    display: block;
+    margin-top: 40px;
+    cursor: pointer;
+    font-size: 40px;
+    border-radius: 5px;
+    color: white;
+    text-align: right;
+    padding-right: 20px;
+}
+#green {
+    background-color: #73A700;
+    box-shadow: 0px 5px 0px #4B6D00;
+}
+#yellow {
+    background-color: #EA8C0D;
+    box-shadow: 0px 5px 0px #975803;
+}
+#red {
+    background-color: #DD3D25;
+    box-shadow: 0px 5px 0px #982412;
+}
+
+
+.gua-item:active {
+    color: rgba(0, 0, 0, 0.5);
+}
+#green:active {
+    background-color: #6B9C00;
+    box-shadow: 0px 2px 0px #4B6D00;
+    transform: translateY(5px);
+}
+#yellow:active {
+    background-color: #D87E04;
+    box-shadow: 0px 2px 0px #975803;
+    transform: translateY(5px);
+}
+#red:active {
+    background-color: #D9331A;
+    box-shadow: 0px 2px 0px #982412;
+    transform: translateY(5px);
+}
